@@ -84,6 +84,36 @@
     .header_link{
         font-size: 24px;
     }
+
+    .main_skills{
+        justify-content: space-around;
+    }
+
+    .additional_skills,
+    .language_skills{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .additional_skills span,
+    .language_skills span{
+        margin-bottom: 20px;
+    }
+
+    .additional_skills p,
+    .language_skills ul{
+        text-align: center;
+    }
+
+    .main_skill_item:active .number h2{
+        color: #fff;
+        font-size: 40px;
+        transition: 0.2s;
+    }
+
+    footer{
+        height: 70px;
+    }
 }
 
 @media(max-width: 1000px){
@@ -179,27 +209,5 @@
     .section1 span{
         font-size: 14px;
         margin-top: 15px;
-    }
-}
-
-@media(max-width: 750px){
-    .main_skills{
-        justify-content: space-around;
-    }
-
-    .additional_skills,
-    .language_skills{
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .additional_skills span,
-    .language_skills span{
-        margin-bottom: 20px;
-    }
-
-    .additional_skills p,
-    .language_skills ul{
-        text-align: center;
     }
 }
