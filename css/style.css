@@ -373,6 +373,7 @@ footer{
     align-items: center;
     justify-content: center;
     background-color: rgb(43, 43, 43);
+    margin-bottom: 0px;
 }
 
 footer a{
