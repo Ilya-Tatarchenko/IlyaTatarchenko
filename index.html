@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilya | Front-end developer | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="media/header-media.css">
+</head>
+
+<body>
+
+    <div id="preloader" class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <div class="content">
+
+        <header class="header">
+            <div class="logo">
+                <h1>I</h1>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li class="menu_item">
+                        <a href="#" class="menu_link">Home</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="skills.html" class="menu_link">Skills</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="works.html" class="menu_link">Works</a>
+                    </li>
+                    <li class="menu_item">
+                        <a href="about.html" class="menu_link">About</a>
+                    </li>
+                    <!-- <li class="menu_item">
+                        <a href="#" class="menu_link">Contact</a>
+                    </li> -->
+                </ul>
+            </nav>
+        </header>
+
+
+        <div class="header_burger">
+            <span></span>
+        </div>
+
+        <div class="media_header">
+            <div class="logo">
+                <h1>I</h1>
+            </div>
+            <div class="media_menu">
+                <nav class="media_nav">
+                    <ul>
+                        <li class="media_item">
+                            <a href="index.html" class="media_link">Home</a>
+                        </li>
+                        <li class="media_item">
+                            <a href="skills.html" class="media_link">Skills</a>
+                        </li>
+                        <li class="media_item">
+                            <a href="works.html" class="media_link">Works</a>
+                        </li>
+                        <li class="media_item">
+                            <a href="about.html" class="media_link">About</a>
+                        </li>
+                        <!-- <li class="media_item">
+                            <a href="#" class="media_link">Contact</a>
+                        </li> -->
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="title_content">
+            <div class="content_color">
+                <div class="title">
+                    <h1>Hi!</h1>
+                    <h1>I am Ilya,</h1>
+                    <h1>front-end developer</h1>
+                </div>
+    
+                <div class="button">
+                    <a href="works.html">my works</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+        <defs>
+            <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+            <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+            </filter>
+        </defs>
+    </svg>
+
+    <canvas id="canvas1"></canvas>
+    <canvas id="canvas2"></canvas>
+
+    <script src="js/canvas.js"></script>
+    <script src="js/preloader.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/media.js"></script>
+
+</body>
+
+</html>

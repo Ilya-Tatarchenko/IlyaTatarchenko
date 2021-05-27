@@ -1,0 +1,143 @@
+@media(max-width: 1500px){
+    .skills_description{
+        width: 35%;
+    }
+}
+
+@media(max-width: 1400px){
+    .skills_description{
+        width: 30%;
+    }
+}
+
+@media(max-width: 1500px){
+
+    .title{
+        margin-top: 50px;
+    }
+
+    .skills_img{
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+
+    .skills_content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .skills_window{
+        width: 40%;
+    }
+
+    .bar{
+        margin-right: 0;
+    }
+
+    .header{
+        min-height: auto;
+        max-height: 100%;
+    }
+
+    .title{
+        margin-left: 0;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .main_content{
+        min-height: auto;
+        max-height: 100%;
+    }
+
+    .content_color{
+        min-height: auto;
+        max-height: 100%;
+    }
+
+    .skills_info{
+        flex-direction: column;
+    }
+
+    .skills_description{
+        width: 70%;
+        margin-left: 0;
+        margin: 0 auto;
+    }
+
+    .skills_description p{
+        font-size: 18px;
+    }
+
+    .skills_bar{
+        margin-left: 0;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: 70%;
+    }
+
+    .bar{
+        margin-bottom: 25px;
+    }
+}
+
+@media(max-width: 1000px){
+
+   
+}
+
+@media(max-width: 780px){
+
+    .skills_description{
+        width: 85%;
+    }
+
+    .skills_img{
+        flex-direction: column;
+        align-items: center;
+        width: 80%;
+    }
+
+    .skills_bar{
+        margin-bottom: 0px;
+        width: 85%;
+    }
+
+    .skills_window{
+        margin-top: 25px;
+        width: 100%;
+    }
+
+    .skills_window h4{
+        font-size: 26px;
+    }
+
+    .skills_window p{
+        font-size: 18px;
+    }
+
+    .modal_content{
+        width: 90%;
+    }
+}
+
+@media(max-width: 500px){
+    .title h2{
+        font-size: 48px;
+        margin-bottom: -60px;
+        margin-top: 20px;
+    }
+
+    .title h2::before{
+        font-size: 48px;
+        margin-left: 91px;
+    }
+
+    .skills_description{
+        margin-top: 25px;
+    }
+}
